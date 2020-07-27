@@ -1,0 +1,12 @@
+
+#  fs_mark  -k  -d  /media/testext2fyp/test_fs_mark  -s  1048576  -n  10240  -r  64  -v 
+#	Version 3.3, 1 thread(s) starting at Mon Jul 27 21:57:52 2020
+#	Sync method: INBAND FSYNC: fsync() per file in write loop.
+#	Directories:  no subdirectories used
+#	File names: 40 bytes long, (-24 initial bytes of time stamp with 64 random bytes at end of name)
+#	Files info: size 1048576 bytes, written with an IO size of 16384 bytes per write
+#	App overhead is time in microseconds spent in the test not doing file writing related system calls.
+#	All system call times are reported in microseconds.
+
+FSUse%        Count         Size    Files/sec     App Overhead        CREAT (Min/Avg/Max)        WRITE (Min/Avg/Max)        FSYNC (Min/Avg/Max)         SYNC (Min/Avg/Max)        CLOSE (Min/Avg/Max)       UNLINK (Min/Avg/Max)
+    25        10240      1048576        232.8           110041       13       83    63318        6       11     1039     3145     3410     8136        0        0        0        1        1       11        0        0        0

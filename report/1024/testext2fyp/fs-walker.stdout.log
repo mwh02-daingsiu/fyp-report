@@ -1,0 +1,16 @@
+=================================
+status_completed_directory: 24664
+status_completed_file: 183333
+status_error_directory: 1
+status_error_file: 2
+status_partial_directory: 0
+status_partial_file: 123
+status_undefined_error: 0
+=================================
+status_all_file_total_chunks: 27291291
+status_all_file_missing_chunks: 816
+status_all_file_good_chunks: 27290475
+================================= (For files bigger or equal to 1073741824 bytes)
+status_huge_file_total_chunks: 23068672
+status_huge_file_missing_chunks: 687
+status_huge_file_good_chunks: 23067985
